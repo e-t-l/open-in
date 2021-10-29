@@ -9,6 +9,7 @@
     "tabs",
     "contextMenus",
     "nativeMessaging"
+    "bookmarks"
   ],
   "optional_permissions": [
     "downloads"
