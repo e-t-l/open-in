@@ -154,6 +154,12 @@ chrome.browserAction.onClicked.addListener(() => {
       documentUrlPatterns: ['*://*/*']
     });
     chrome.contextMenus.create({
+      id: 'open-current',
+      title: app.locale.current,
+      contexts: ['bookmark'],
+      documentUrlPatterns: ['*://*/*']
+    });
+    chrome.contextMenus.create({
       id: 'open-all',
       title: app.locale.all,
       contexts: ['browser_action']
